@@ -173,7 +173,7 @@ const onSelectHours = hour => {
     generateMinutes(0);
   }
 };
-
+ 
 const onOK = () => {
   insertCoupon({
     money: state.formState.money,
